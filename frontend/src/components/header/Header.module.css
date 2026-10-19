@@ -1,0 +1,15 @@
+header{
+    background-color: rgb(187, 236, 255);
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.menu{
+    display: flex;
+    gap: 30px;
+}
+button{
+    text-align: right;
+}
