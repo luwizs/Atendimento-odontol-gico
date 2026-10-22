@@ -1,9 +1,9 @@
-import './Footer.css'
+import styles from './Footer.module.css'
 
 function Footer(){
     return(
         <>
-        <footer>
+        <footer className={styles.footer}>
             <p>@2026 Odonto</p>
             <p>Todos os direitos reservados</p>
         </footer>

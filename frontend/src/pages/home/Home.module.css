@@ -1,26 +1,16 @@
 
-main{
-    padding: 40px;
-    width: 100%;
+.main{
+    background-color: aliceblue;
+    padding: 40px 5%;
     min-height: 100vh;
-    background: 
-    linear-gradient(
-        rgba(255,255,255,0.8),
-        rgba(255, 255, 255, 0.8)
-    ),
-    url(https://sorridents.com.br/business/wp-content/uploads/sites/2/2016/07/Depositphotos_2649088_m-2015.jpg-768x576.jpeg);
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 
 }
-h1{
-    color: #2F4858;   
-}
-p{
-    color: #6B7F8C;
-}
+
 
 .button{
     background-color: #2E7D91;
@@ -50,6 +40,22 @@ p{
     width: fit-content;
     padding: 30px;
     border-radius: 10px;
+}
+.caixas{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.caixa{
+    background-color: #2E7D91;
+    padding: 40px;
+    border-radius: 30px;
+    color: white;
+    
 }
 
 
